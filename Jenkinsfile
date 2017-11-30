@@ -9,7 +9,8 @@ pipeline{
           sh 'cd gitproj'
           sh 'git init'
           sh 'git clone https://github.com/ManojPeddireddy/HelloWorld.git'
-          sh 'git pull'
+          sh 'git remote add origin https://github.com/ManojPeddireddy/HelloWorld.git'
+          sh 'git pull origin'
           sh 'ls'
           }
        }   
