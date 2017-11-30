@@ -7,7 +7,7 @@ pipeline{
           sh 'pwd'
           sh 'cd gitproj'
           sh 'git remote -v'
-          sh 'git pull origin'
+          sh 'git pull origin master'
           sh 'ls'
           }
        }   
