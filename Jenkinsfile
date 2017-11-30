@@ -3,7 +3,7 @@ pipeline{
     stages{
       stage('git'){
           steps{
-          sh 'git -version'
+          sh 'git --version'
           sh 'pwd'
           sh 'mkdir gitproj'
           sh 'cd gitproj'
