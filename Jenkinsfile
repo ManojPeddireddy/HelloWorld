@@ -5,7 +5,6 @@ pipeline{
           steps{
           sh 'git --version'
           sh 'pwd'
-          sh 'git remote add origin git://github.com/ManojPeddireddy/HelloWorld.git'  
           sh 'git remote -v'
           sh 'git pull origin master'
           sh 'ls'
