@@ -16,5 +16,10 @@ pipeline{
           sh 'mvn clean install'
           }
         }
+      stage('Triggering Artifactory Job'){
+          steps{
+          build 'y0'
+          }
+      }
      }
   }
